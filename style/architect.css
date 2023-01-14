@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*---------------------
+      Style of Nav 
+ ---------------------*/
+
+.nav {
+    display: flex;
+    gap: 500px;
+    justify-content: space-evenly;
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-top: 50px;
+}
+
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.nav-option {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.nav-option a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/*---------------------
+      Style of Banner 
+ ---------------------*/
+
+.banner {
+    background-color: rgba(255, 144, 14, 0.1);
+    text-align: center;
+    background-image: url('./images/banner.png');
+    background-repeat: no-repeat;
+    background-position: center 500px;
+    /* width: 1920px; */
+    height: 1322px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    padding-top: 116px;
+    padding-bottom: 15px;
+}
+
+
+.banner-description {
+    padding-bottom: 33px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.explore-more {
+    width: 180px;
+    height: 64px;
+    padding: 20px 24px;
+    background-color: #FF900E;
+    color: #FFFFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
