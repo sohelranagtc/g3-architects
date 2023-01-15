@@ -364,10 +364,10 @@ body {
     }
 
     .experience-button {
-        left: 80px;
+        left: 120px;
         width: 320px;
         height:180px;
-        top: 4600px;
+        top: 4450px;
     }
     
     .count {
@@ -379,10 +379,22 @@ body {
         gap: 20px;
     }  
 
-    .contact  {
+    .contact {
         flex-direction: column;
+        align-items: center;
         margin: 0;
         gap: 50px;
+
+    }
+
+    .address, .form h2 {
+        text-align: center;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
     }
 
     .landing-page {
