@@ -43,8 +43,6 @@ body {
 
 
 
-
-
 /*---------------------
       Style of Banner 
  ---------------------*/
@@ -237,6 +235,12 @@ body {
     padding-bottom: 100px;
 }
 
+.sponspors-title h1 {
+    margin-bottom: 24px;
+}
+
+
+
 .sponspors-img {
     display: flex;
     justify-content: center;
@@ -244,5 +248,52 @@ body {
     margin-left: 280px;
     margin-right: 280px;
     margin-bottom: 130px;
+}
+
+
+/* ---------------
+    Contact form
+---------------- */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-bottom: 150px;
+    background-color:#FFF4E7;
+    padding: 100px;
+}
+
+.form input {
+
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.send {
+    padding: 10px 20px; 
+    background-color: #FF900E;
+    border-radius: 5px;
+}
+
+.fa-brands {
+    font-size: 30px;
+}
+
+/* --------------
+    Landing Page 
+------------------*/
+
+
+.landing-page {
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 400px;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-bottom: 100px;
+    background-color:#FFF4E7;
 }
 
